@@ -1,0 +1,21 @@
+.home {
+  margin: 20px 200px;
+}
+
+.meal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.meal button {
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  background-color: gray;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  width: 150px;
+  margin: 10px 0;
+}

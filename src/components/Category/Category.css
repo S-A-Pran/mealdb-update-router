@@ -1,0 +1,22 @@
+.cat {
+  margin: 20px 200px;
+}
+.meals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.meals img {
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.meal-box {
+  border: 1px solid black;
+  width: 250px;
+}
+
+.meal-box h4 {
+  text-align: center;
+}
